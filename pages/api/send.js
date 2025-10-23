@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     process.env.TWILIO_AUTH_TOKEN
   );
 
-  const to = '+1905XXXXXXX'; // your real cell number (must be verified in Twilio)
+  const to = '+14193678104'; // your real cell number (must be verified in Twilio)
 
   try {
     const message = await client.messages.create({
